@@ -119,16 +119,6 @@ nav ul li a.active {
   gap: 20px;
 }
 
-.nav-actions i {
-  font-size: 1.2rem;
-  cursor: pointer;
-  color: var(--text-dark);
-  transition: 0.3s;
-}
-
-.nav-actions i:hover {
-  color: var(--primary-color);
-}
 .icons8-search {
   display: inline-block;
   width: 30px;
