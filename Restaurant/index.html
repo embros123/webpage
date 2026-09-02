@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TasteBite Restaurant | Delicious Food Made With Love</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container" style="padding-top:0; padding-bottom:0;">
+      <a href="#" class="logo"><img src="images/logo.png" alt="TasteBite Logo"></a>
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#featured" class="nav-link">Featured</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#reservation" class="nav-link">Reservation</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="sing-in"><i class="fa-solid fa-user-plus"></i>Sing In</div>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-container">
+        <div class="hero-left">
+          <h1>Delicious Food Made With Love</h1>
+          <p>Experience carefully prepared dishes made with fresh ingredients and unforgettable flavors.</p>
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary">Explore Menu</a>
+            <a href="#reservation" class="btn btn-outline">Book a Table</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="images/hero-dish.jpg" alt="Signature Gourmet Dish" class="hero-right-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="about">
+      <div class="about-container">
+        <div class="about-img-wrapper">
+          <img src="images/chef.jpg" alt="Chef preparing food">
+        </div>
+        <div class="about-text">
+          <span class="section-subtitle">Our Story</span>
+          <h2>Crafting Culinary Memories Since 2012</h2>
+          <p>At TasteBite, culinary passion meets luxury hospitality. Our master chefs combine time-honored techniques
+            with contemporary flavors to deliver an unforgettable dining experience.</p>
+          <p>Every ingredient is locally sourced, guaranteeing seasonal freshness across all our menu offerings.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="featured">
+      <div class="section-header">
+        <span class="section-subtitle">Chef Selection</span>
+        <h2 class="section-title">Featured Dishes</h2>
+      </div>
+      <div class="featured-grid">
+        <article class="card">
+          <img src="images/salmon-bowl.jpg" alt="Salmon Bowl" class="card-img">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Truffle Salmon Bowl</h3>
+              <span class="card-price">$28</span>
+            </div>
+            <p class="card-desc">Fresh Atlantic salmon paired with truffle infusion, wild rice, and avocado.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/ribeye-steak.jpg" alt="Prime Ribeye Steak" class="card-img">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Prime Ribeye Steak</h3>
+              <span class="card-price">$42</span>
+            </div>
+            <p class="card-desc">Aged beef steak served with rosemary butter and roasted root vegetables.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/pasta.jpg" alt="Artisanal Pasta" class="card-img">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Artisanal Pasta</h3>
+              <span class="card-price">$24</span>
+            </div>
+            <p class="card-desc">Handmade tagliatelle with slow-cooked heirloom tomato ragu and parmesan.</p>
+          </div>
+        </article>
+
+         <article class="card">
+          <img src="images/salad.jpg" alt="Fresh Salad" class="card-img">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Fresh Salad</h3>
+              <span class="card-price">$12</span>
+            </div>
+            <p class="card-desc">Handmade tagliatelle with slow-cooked heirloom tomato ragu and parmesan.</p>
+          </div>
+        </article>
+
+         <article class="card">
+          <img src="images/Pizza.jpg" alt="Delicious Pizza" class="card-img">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Delicious Pizza</h3>
+              <span class="card-price">$18</span>
+            </div>
+            <p class="card-desc">Wood-fired crust topped with fresh ingredients and melted mozzarella.</p>
+          </div>
+        </article>
+
+         <article class="card">
+          <img src="images/Buger.jpg" alt="Delicious Burger" class="card-img">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-title">Delicious Burger</h3>
+              <span class="card-price">$16</span>
+            </div>
+            <p class="card-desc">Juicy beef patty with lettuce, tomato, and our signature sauce.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="menu">
+      <div class="section-header">
+        <span class="section-subtitle">Delightful Choices</span>
+        <h2 class="section-title">Full Menu Preview</h2>
+      </div>
+      <div class="menu-tabs">
+        <button class="tab-btn active">All Items</button>
+        <button class="tab-btn">Starters</button>
+        <button class="tab-btn">Mains</button>
+        <button class="tab-btn">Desserts</button>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Seared Scallops</h4>
+            <p>Served with cauliflower puree and crisp pancetta</p>
+          </div>
+          <div class="menu-item-price">$18</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Wild Mushroom Soup</h4>
+            <p>Enriched with cream, herb croutons, and truffle oil</p>
+          </div>
+          <div class="menu-item-price">$14</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Roasted Duck Breast</h4>
+            <p>Accompanied by cherry reduction and fondant potatoes</p>
+          </div>
+          <div class="menu-item-price">$36</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Chocolate Fondant</h4>
+            <p>Warm chocolate cake with a molten center, served with vanilla bean ice cream</p>
+          </div>
+          <div class="menu-item-price">$12</div>
+        </div>
+         <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Chocolate Fondant</h4>
+            <p>Warm chocolate cake with a molten center, served with vanilla bean ice cream</p>
+          </div>
+          <div class="menu-item-price">$12</div>
+        </div>
+         <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Chocolate Fondant</h4>
+            <p>Warm chocolate cake with a molten center, served with vanilla bean ice cream</p>
+          </div>
+          <div class="menu-item-price">$12</div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Our Standards</span>
+        <h2 class="section-title">Why Choose Us</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-box">
+          <i class="fa-solid fa-utensils feature-icon"></i>
+          <h3>Fresh Ingredients</h3>
+          <p>We source organic, locally harvested produce and high-grade proteins daily.</p>
+        </div>
+        <div class="feature-box">
+          <i class="fa-solid fa-award feature-icon"></i>
+          <h3>Expert Chefs</h3>
+          <p>Our kitchen team boasts global fine-dining culinary expertise.</p>
+        </div>
+        <div class="feature-box">
+          <i class="fa-solid fa-wine-glass feature-icon"></i>
+          <h3>Relaxing Ambience</h3>
+          <p>Designed to deliver an intimate and luxury atmosphere for all occasions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="gallery">
+      <div class="section-header">
+        <span class="section-subtitle">Visual Experience</span>
+        <h2 class="section-title">Restaurant Gallery</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/gallery-1.jpg" alt="Restaurant Interior">
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-2.jpg" alt="Bar Area">
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-3.jpg" alt="Food Preparation">
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-4.jpg" alt="Dining Table Setup">
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Reviews</span>
+        <h2 class="section-title">Customer Testimonials</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>"The food quality and level of service were completely beyond expectations. The Prime Ribeye was cooked to
+            absolute perfection."</p>
+          <div class="client-info">
+            <h5>Sarah Jenkins</h5>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>"An incredible luxury atmosphere. TasteBite provides the best fine-dining experience in the city without a
+            doubt."</p>
+          <div class="client-info">
+            <h5>David Chen</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation-section" id="reservation" >
+      <div class="container res-container">
+        <div class="hours-box">
+          <span class="section-subtitle">Timing</span>
+          <h2 class="section-title" style="font-size: 2rem; margin-bottom: 1.5rem;">Opening Hours</h2>
+          <ul class="hours-list">
+            <li><span>Monday — Thursday</span> <span>11:00 AM — 10:00 PM</span></li>
+            <li><span>Friday — Saturday</span> <span>11:00 AM — 11:30 PM</span></li>
+            <li><span>Sunday</span> <span>10:00 AM — 09:00 PM</span></li>
+          </ul>
+        </div>
+
+        <div class="res-form-box">
+          <span class="section-subtitle">Book a Table</span>
+          <h2 class="section-title" style="font-size: 2rem; margin-bottom: 1.5rem;">Reservation</h2>
+          <form id="reservationForm">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="date" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <select class="form-control" required>
+                <option value="">Select Guests</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="4">4 People</option>
+                <option value="6">6+ People</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary form-btn">Confirm Reservation</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="contact">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>Location</h3>
+          <p class="contact-detail">123 Culinary Avenue, Grand City</p>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <h3>Phone</h3>
+          <p class="contact-detail">+1 (555) 234-5678</p>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-clock"></i>
+          <h3>Hours</h3>
+          <p class="contact-detail">Mon - Sun: Open Daily</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-bottom" style="padding-top:0;">
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <p>&copy; 2026 TasteBite Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
