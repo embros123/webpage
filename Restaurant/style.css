@@ -49,7 +49,7 @@ img {
   display: block;
 }
 
-/* --- REUSABLE COMPONENTS --- */
+/* REUSABLE COMPONENTS  */
 .container {
   width: 90%;
   max-width: var(--max-width);
@@ -158,7 +158,7 @@ img {
   color: var(--primary);
 }
 
-/* --- HERO SECTION --- */
+/*  HERO SECTION  */
 .hero {
   padding-top: 8rem;
   padding-bottom: 4rem;
@@ -206,7 +206,7 @@ img {
   border: 1px solid var(--border-color);
 }
 
-/* --- ABOUT SECTION --- */
+/*  ABOUT SECTION  */
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -236,7 +236,7 @@ img {
   margin-bottom: 1.2rem;
 }
 
-/* --- FEATURED DISHES --- */
+/* FEATURED DISHES  */
 .featured-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -513,7 +513,9 @@ img {
 }
 
 .form-btn {
-  width: 100%;
+  width: 50%;
+  border-radius: 20px 0 20px 0;
+  margin-left: 6rem;
 }
 
 /* CONTACT & FOOTER */
