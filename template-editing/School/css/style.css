@@ -24,7 +24,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: "width" 100;
 }
 
 .font-josefin {
@@ -63,13 +63,13 @@
 h1-color {
   color: #283618;
 }
-.about-bg{
-    background:#fefae0  ;
+.about-bg {
+  background: #fefae0;
 }
-.h2-color{
-    font-size :  2.375em; 
-     color: #bc6c25;
-     font-weight: 800;
+.h2-color {
+  font-size: 2.375em;
+  color: #bc6c25;
+  font-weight: 800;
 }
 
 /*** Button ***/
@@ -133,18 +133,24 @@ h1-color {
   bottom: 45px;
   z-index: 99;
 }
-.btn-color{
-    background-color: #487e36;
-    color: #fff;
+.btn-color {
+  background-color: #487e36;
+  color: #fff;
 }
 
-.icon-color{
-    color: #487e36;
+.icon-color {
+  color: #487e36;
 }
 
 /*** Navbar ***/
 .navbar {
   z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(55px);
 }
 
 .navbar .navbar-brand img {
@@ -212,7 +218,6 @@ h1-color {
     opacity: 1;
   }
 }
-
 
 /*** Hero Header ***/
 .page-header img {
