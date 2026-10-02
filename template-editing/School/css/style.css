@@ -150,11 +150,10 @@ h1-color {
   left: 0;
   width: 100%;
   z-index: 1000;
-  backdrop-filter: blur(55px);
 }
 
 .navbar .navbar-brand img {
-  max-height: 50px;
+  max-height: 80px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -183,10 +182,30 @@ h1-color {
   vertical-align: middle;
   margin-left: 8px;
 }
+.school-logo{
+  height: 100px;
+  width: 100px;
+}
+.navbar-toggler{
+  background-color: #f5f3eb;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+}
+.navbar-toggler-icon{
+  width: 40px;
+  height: 40px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
 @media (max-width: 991.98px) {
   .navbar .navbar-brand img {
-    max-height: 45px;
+    max-height: 80px;
   }
 
   .navbar .navbar-nav {
@@ -199,7 +218,7 @@ h1-color {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1040px) {
   .navbar .nav-item .dropdown-menu {
     display: block;
     border: none;
@@ -213,7 +232,7 @@ h1-color {
 
   .navbar .nav-item:hover .dropdown-menu {
     top: 100%;
-    visibility: visible;
+    visibility:visible  ;
     transition: 0.5s;
     opacity: 1;
   }

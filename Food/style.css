@@ -82,9 +82,8 @@ header {
 }
 
 .logo {
-  font-size: xx-large;
-  font-weight: 400;
-  color: var(--primary-color);
+  width: 100px;
+  height: 200px;
 }
 
 .logo strong {
